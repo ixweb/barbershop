@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BORODINSKI - Барбершоп</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="top_nav">
+		<div class="container header">
+			<ul class="top_menu">
+				<li class="active">Информация</li>
+				<li>Новости</li>
+				<li>Прайс-лист</li>
+				<li>Магазин</li>
+				<li>Контакты</li>
+			</ul>
+			<div class="login">
+				Вход
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="hlogo">
+			<div class="hlogo_top">
+				<img src="img/logo.png">
+			</div>
+			<ul class="hlogo_bottom">
+				<li><span>Быстро</span>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</li>
+				<li><span>Круто</span>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</li>
+				<li><span>Дорого</span>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="col-5">
+				<h2>Новости</h2>
+				<p>
+					НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+					<span class="date">11 января</span>
+				</p>
+				<p>
+					В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+					<span class="date">18 января</span>
+				</p>
+				<a href="#" class="btn">ВСЕ НОВОСТИ</a>
+			</div>
+			<div class="col-5">
+				<h2>Фотогалерея</h2>
+				<a href="#" class="btn">НАЗАД</a>
+				<a href="#" class="btn">ВПЕРЕД</a>
+			</div>
+		</div>
+		<div class="content">
+			<div class="col-5">
+				<h2>Контактная информация</h2>
+				<p>
+					БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+					АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+					ТЕЛЕФОН: +7 (495) 666-02-66
+				</p>
+				<p>
+					ВРЕМЯ РАБОТЫ: <br>
+					ПН—ПТ: С 10:00 ДО 22:00<br>
+					СБ—ВС: С 10:00 ДО 19:00
+				</p>
+				<div class="buttons">
+					<a href="#" class="btn">КАК ПРОЕХАТЬ</a>
+					<a href="#" class="btn">ОБРАТНАЯ СВЯЗЬ</a>
+				</div>
+			</div>
+			<div class="col-5">
+				<h2>Записаться</h2>
+				<p>
+					УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+				</p>
+				<form action="forms/entry.php" method="post" class="entry_form">
+					<div>
+						<label for="date">Дата</label>
+						<input type="date" id="date" placeholder="01.01.2018">
+					</div>
+					<div>
+						<label for="time">Время</label>
+						<input type="time" placeholder="14:00" id="time">
+					</div>
+					<div>
+						<label for="name">Ваше имя</label>
+						<input type="text" placeholder="Борода" id="name">
+					</div>
+					<div>
+						<label for="tel">Телефон</label>
+						<input type="number" placeholder="+7 123 456-78-90" id="tel">
+					</div>
+					<input type="submit" value="ОТПРАВИТЬ" class="btn">
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="footer">
+				
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
